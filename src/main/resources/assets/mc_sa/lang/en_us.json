@@ -1,0 +1,19 @@
+{
+  "item.mc_sa.sap": "Sap",
+  "item.mc_sa.cactus_sap": "Cactus Sap",
+  "item.mc_sa.cementing_paste": "Cementing Paste",
+  "item.mc_sa.crystal": "Crystal",
+  "item.mc_sa.fiber": "Fiber",
+  "item.mc_sa.chitin": "Chitin",
+  "item.mc_sa.keratin": "Keratin",
+  "item.mc_sa.pelt": "Pelt",
+  "item.mc_sa.preserving_salt": "Preserving Salt",
+  "item.mc_sa.raw_salt": "Raw Salt",
+  "item.mc_sa.shell_fragment": "Shell Fragment",
+  "item.mc_sa.silica_pearls": "Silica Pearls",
+  "item.mc_sa.sparkpowder": "Sparkpowder",
+  "item.mc_sa.sulfur": "Sulfur",
+  "item.mc_sa.thatch": "Thatch",
+
+  "itemGroup.survival_ascended_tab": "Minecraft: Survival Ascended"
+}

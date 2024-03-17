@@ -1,6 +1,8 @@
 package net.davido152.minecraftsurvivalascended;
 
 import com.mojang.logging.LogUtils;
+import net.davido152.minecraftsurvivalascended.item.ModCreativeModeTabs;
+import net.davido152.minecraftsurvivalascended.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +23,9 @@ public class MinecraftSurvivalAscended {
 
     public MinecraftSurvivalAscended() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
         
         modEventBus.addListener(this::commonSetup);
 
